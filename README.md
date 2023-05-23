@@ -1,3 +1,3 @@
 # PP_1.1.5
-добавлены HibernateUtil и HibernateUserServiceImpl;
-реализован UserDaoHibernateImpl
+добавлен HibernateUtil;
+реализованы UserDaoHibernateImpl и UserServiceImpl
