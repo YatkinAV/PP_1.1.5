@@ -1,8 +1,8 @@
 package jm.task.core.jdbc;
 
 import jm.task.core.jdbc.model.User;
-import jm.task.core.jdbc.service.HibernateUserServiceImpl;
 import jm.task.core.jdbc.service.UserService;
+import jm.task.core.jdbc.service.UserServiceImpl;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ public class Main {
         User user3 = new User("Dmitrii", "Dorlov", (byte) 39);
         User user4 = new User("Vasilii", "Kotov", (byte) 19);
 
-        UserService userService = new HibernateUserServiceImpl();
+        UserService userService = new UserServiceImpl();
 
         userService.createUsersTable();
 
